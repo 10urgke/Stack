@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/onurgokce/RiderProjects/Stack/StackExample/StackExample.csproj": {}
+    "/Users/onurgokce/RiderProjects/Stack3/StackExample/StackExample.csproj": {}
   },
   "projects": {
-    "/Users/onurgokce/RiderProjects/Stack/StackExample/StackExample.csproj": {
+    "/Users/onurgokce/RiderProjects/Stack3/StackExample/StackExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/onurgokce/RiderProjects/Stack/StackExample/StackExample.csproj",
+        "projectUniqueName": "/Users/onurgokce/RiderProjects/Stack3/StackExample/StackExample.csproj",
         "projectName": "StackExample",
-        "projectPath": "/Users/onurgokce/RiderProjects/Stack/StackExample/StackExample.csproj",
+        "projectPath": "/Users/onurgokce/RiderProjects/Stack3/StackExample/StackExample.csproj",
         "packagesPath": "/Users/onurgokce/.nuget/packages/",
-        "outputPath": "/Users/onurgokce/RiderProjects/Stack/StackExample/obj/",
+        "outputPath": "/Users/onurgokce/RiderProjects/Stack3/StackExample/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/onurgokce/.nuget/NuGet/NuGet.Config"
