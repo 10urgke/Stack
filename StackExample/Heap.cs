@@ -29,7 +29,7 @@ namespace StackExample;
             _size = 0;
         }
 
-        public virtual int Count
+        public int Count
         {
             get
             {
@@ -38,13 +38,13 @@ namespace StackExample;
         }
 
         // Yığındaki tüm elemanları kaldırır.
-        public virtual void Clear()
+        public void Clear()
         {
             Array.Clear(_array, 0, _size); // Bunu belgelememize gerek yok, ancak Garbage Collection referansları geri alabilmesi için öğeleri temizliyoruz.
             _size = 0;                               // (Garbage Collection erişilemeyen nesneleri silerek belleğin verimli bir şekilde kullanılmasını sağlamaktadır.)
         }
 
-        public virtual object Clone()   // Bu metot kendisini çağıran dizinin tüm elemanlarını kopyalayıp aynı sırada diğer diziye atar. 
+        public object Clone()   // Bu metot kendisini çağıran dizinin tüm elemanlarını kopyalayıp aynı sırada diğer diziye atar. 
         {
             Heap s = new Heap(_size);
             s._size = _size;
@@ -53,7 +53,7 @@ namespace StackExample;
         }
 
         // Yığında en üstteki nesneyi kaldırmadan döndürür eğer yığın boşsa Peek bir InvalidOperationException oluşturur.
-        public virtual object? Peek()
+        public object? Peek()
         {
             if (_size == 0)
                 throw new InvalidOperationException("Enumeration already finished");
@@ -62,7 +62,7 @@ namespace StackExample;
         }
 
         //Yığının en üstünden bir öğe çıkarır. Yığın boşsa, Pop bir InvalidOperationException oluşturur.
-        public virtual object? Pop()
+        public object? Pop()
         {
             if (_size == 0)
                 throw new InvalidOperationException("Enumeration already finished.");
@@ -73,7 +73,7 @@ namespace StackExample;
         }
 
         // Bir öğeyi yığının en üstüne iter.
-        public virtual void Push(object? obj)
+        public void Push(object? obj)
         {
             if (_size == _array.Length)
             {
